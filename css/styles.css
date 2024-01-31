@@ -1,0 +1,30 @@
+body, footer {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: hsl(0, 0%, 0%);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+}
