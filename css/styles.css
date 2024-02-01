@@ -3,7 +3,7 @@ body, footer {
     padding: 0;
 }
 
-.footer {
+footer {
     background-color: hsl(0, 0%, 0%);
     text-align: center;
     position: fixed;
@@ -12,19 +12,4 @@ body, footer {
     font-family: 'DM Sans', sans-serif;
     margin-bottom: 0;
     font-size: 14px;
-}
-
-div nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-div nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-div nav a {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.75);
 }
