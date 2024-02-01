@@ -1,4 +1,4 @@
-body, footer {
+body{
     margin: 0;
     padding: 0;
 }
@@ -6,10 +6,16 @@ body, footer {
 .footer {
     background-color: hsl(0, 0%, 0%);
     text-align: center;
-    position: fixed;
     bottom: 0;
     width: 100%;
-    font-family: 'DM Sans', sans-serif;
     margin-bottom: 0;
+    
+}
+
+a {
+    font-family: 'DM Sans', sans-serif;
     font-size: 14px;
+    color: rgb(255, 255, 255, 0.75);
+    text-decoration: underline;
+    padding-right: 10px;
 }
