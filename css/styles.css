@@ -3,7 +3,7 @@ body, footer {
     padding: 0;
 }
 
-footer {
+.footer {
     background-color: hsl(0, 0%, 0%);
     text-align: center;
     position: fixed;
