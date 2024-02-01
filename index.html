@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hostingenie Properties</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+        }
+    
+    </style>
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-YEB16VEZ6T"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -13,31 +20,37 @@
     </script>
 </head>
 <body>
-    <p>Test</p>
-        <div style="width: 100dvw; height: 95dvh;" id="VG_OVERLAY_CONTAINER"></div>
-    
-        <!-- Footer with links -->
-        <div class="footer" style="padding-bottom: 13px; padding-top:13px;">
-            <a href="/privacy-policy">Privacy Policy</a>
-            <a href="/cookies-policy">Cookies Policy</a>
-            <a href="/terms-of-service">Terms of Service</a>
+        <!-- Overlay container for links -->
+        <div style="width: 100dvw; height: 100dvh;" id="VG_OVERLAY_CONTAINER">
+            
         </div>
-        <script defer="">
-            (function() {
-                window.VG_CONFIG = {
-                    ID: "tlx44ovnm",
-                    region: 'na',
-                    render: 'full-width', 
-                    stylesheets: [
-                        "https://storage.googleapis.com/voiceglow-cdn/vg_live_build/styles.css",
-                        "css/styles.css"
-                    ],
-                }
-                var VG_SCRIPT = document.createElement("script");
-                VG_SCRIPT.src = "https://storage.googleapis.com/voiceglow-cdn/vg_live_build/vg_bundle.js";
-                document.body.appendChild(VG_SCRIPT);
-            })()
-        </script>
-    </body>
-    
+        <div>
+            <div style="background-color: black; font-family: 'DM Sans', sans-serif; text-align: center; padding-top: 20px; padding-bottom: 10px; width: 100dvw; font-size: 14px;">
+                <a href="privacy-policy.html" target="_blank" style="text-decoration: underline; margin-right: 10px; color:rgb(255, 255, 255, 0.75) ;">Privacy Policy</a>
+                <a href="terms-of-service.html" target="_blank" style="text-decoration: underline; margin-right: 10px; color: rgb(255, 255, 255, 0.75)">Terms of Service</a>
+                <a href="cookie-policy.html" target="_blank" style="text-decoration: underline; color: rgb(255, 255, 255, 0.75)">Cookie Policy</a>
+            </div>
+            
+            
+            
+        </div>
+
+
+    <script defer="">
+        (function() {
+            window.VG_CONFIG = {
+                ID: "tlx44ovnm",
+                region: 'na',
+                render: 'full-width', 
+                stylesheets: [
+                    "https://storage.googleapis.com/voiceglow-cdn/vg_live_build/styles.css",
+                    "css/styles.css"
+                ],
+            }
+            var VG_SCRIPT = document.createElement("script");
+            VG_SCRIPT.src = "https://storage.googleapis.com/voiceglow-cdn/vg_live_build/vg_bundle.js";
+            document.body.appendChild(VG_SCRIPT);
+        })()
+    </script>
+</body>
 </html>
